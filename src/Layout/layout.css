@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.navbarcss {
+    list-style: none;
+    display: flex;
+}
+
+.navbarcss > li {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 11px 0px 11px;
+}
+
+.footer-div {
+    margin-top: 5rem;
+    margin-bottom: 2.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-icons > i {
+    font-size: 40px;
+    margin: 0 10px 0 10px;
+}
+
+.footer-div > p {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.active-link {
+    text-decoration: none;
+    color: #FF6464;
+
+}
+.unactive-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.lemon {
+    font-family: 'Lemon', serif;
+}
+
+
+@media only screen and (max-width: 426px) {
+    /* Your styles for smaller screens go here */
+    .navbar-header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        /*margin-right: 1rem;*/
+    }
+    .navbarcss{
+        justify-content: space-between;
+    }
+
+    .abubakar{
+        text-align: center;
+    }
+
+}
