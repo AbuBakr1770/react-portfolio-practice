@@ -1,0 +1,25 @@
+.download-resume-div {
+    margin-top: 6rem;
+}
+
+.download-resume-btn{
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 2.5px;
+}
+
+.detail-text-div > h1 {
+    margin-bottom: 2rem;
+}
+
+.detail-text-div > p {
+    margin-bottom: 2rem;
+}
+
+.work-heading {
+    padding: 15px;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}

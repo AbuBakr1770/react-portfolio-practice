@@ -1,0 +1,25 @@
+.Recent-post-card {
+    background: white;
+    padding: 1.8rem;
+}
+
+.featured-work-card {
+    padding: 15px;
+    border-bottom: 1px solid #00000012;
+    margin-bottom: 1rem;
+
+}
+
+.featured-card-tag {
+    background: #142850;
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.Blog-Card {
+    border-bottom: 1px solid #00000021;
+    padding: 15px;
+    margin-top: 15px;
+
+}

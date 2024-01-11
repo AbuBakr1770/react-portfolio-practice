@@ -1,0 +1,51 @@
+
+.Recent-post-div {
+    margin-top: 3rem;
+    background-color: #EDF7FA;
+    padding: 15px;
+    border-radius: 2px;
+    width: 100% !important;
+}
+
+.Blog-Cards-div{
+    margin-top: 3rem;
+    max-width: 900px;
+}
+
+.Blogs-Container {
+    margin-top: 1rem;
+}
+.blog-heading{
+    padding: 15px;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Your styles for smaller screens go here */
+    .download-resume-div2 {
+        display: flex !important;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .detail-text-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .download-resume-btn-div{
+        text-align: center;
+    }
+
+    .download-resume-div2  h1,p,button{
+        text-align: center;
+    }
+
+    .profile-img{
+        margin-bottom: 28px;
+    }
+
+    .Recent-Post-Card {
+        margin: 10px 0 10px 0;
+    }
+}
+
